@@ -200,7 +200,7 @@ namespace LinkedList2
         {
             Node temp = head;
             if(temp == null) return -1;
-            int ind = (size) - index;
+            int ind = (size-1) - index;
             for(int i = 0; i <= ind; i++)
             {
                 temp = temp.next;
